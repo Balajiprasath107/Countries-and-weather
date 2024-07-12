@@ -1,0 +1,49 @@
+.row{
+    row-gap: 5vh !important;
+    margin-bottom: 2vh;
+    justify-content:center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width:255px !important;
+    justify-content:center;
+    align-items: center;
+    padding: 0 !important;
+
+}
+.card-header{
+    width: 100%;
+    text-align: center;
+    background-color: #1b1b1b !important;
+    color: #fff !important;
+}
+.card-body{
+    width: fit-content !important;
+    text-align: center ;
+    color: #fff !important;
+    font-weight: 600;
+    line-height: 2vh;
+    background: linear-gradient(90deg, #f4ee9d,#727272) repeat !important; 
+    background-clip: padding-box !important;
+}
+.card-img-top{
+    width: 220px !important;
+    height: 160px !important;
+    padding: 0 !important;
+    margin-bottom: 2vh;
+}
+.card-text{
+    margin-bottom: 2vh;
+}
+.weather-btw{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+.weather-data{
+    height: 50px;
+}
