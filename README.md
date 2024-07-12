@@ -1,62 +1,40 @@
-Rest-countries-weather-API
+# Rest-countries-weather-API
 
 site link
 https://symphonious-licorice-ebd510.netlify.app
 
-Features:
+## Features:
 Country Information:
-
-    Display details like country name, flag, capital, region, country code, and population.
-    The information is presented in a visually appealing card layout, providing a clear overview of each country.
+- Display details like country name, flag, capital, region, country code, and population.
+- The information is presented in a visually appealing card layout, providing a clear overview of each country.
 
 Weather Information:
 
-    Utilizes the OpenWeatherMap API to fetch current weather data for each country.
-    Weather details include temperature, description, wind speed, pressure, humidity, latitude, and longitude.
-    The weather information is presented in a popup for a seamless and informative user experience.
+- Utilizes the OpenWeatherMap API to fetch current weather data for each country.
+- Weather details include temperature, description, wind speed, pressure, humidity, latitude, and longitude.
+- The weather information is presented in a popup for a seamless and informative user experience.
 
 Responsive Web Design:
 
-    The app is designed to be responsive, ensuring a consistent and optimized user interface across various devices and screen sizes.
+- The app is designed to be responsive, ensuring a consistent and optimized user interface across various devices and screen sizes.
 
 Dynamic HTML Elements:
-
-    All HTML elements are dynamically created in the Document Object Model (DOM) using JavaScript.
-    This approach enhances maintainability and allows for dynamic updates without requiring manual HTML adjustments.
+- All HTML elements are dynamically created in the Document Object Model (DOM) using JavaScript.
+- This approach enhances maintainability and allows for dynamic updates without requiring manual HTML adjustments.
 
 Fetch API Method:
+- Utilizes the Fetch API to make asynchronous requests to the REST Countries API for country information and the OpenWeatherMap API for weather data.
 
-    Utilizes the Fetch API to make asynchronous requests to the REST Countries API for country information and the OpenWeatherMap API for weather data.
-
-Bootstrap Integration:
-
-    Incorporates Bootstrap for styling and layout components, contributing to a modern and visually appealing UI.
 
 Usage
+- Clone the repository to your local machine.
+- Open the index.html file in a web browser.
+- Explore detailed information about various countries and check the current weather by clicking the respective buttons.
 
-    Clone the repository to your local machine.
-    Open the index.html file in a web browser.
-    Explore detailed information about various countries and check the current weather by clicking the respective buttons.
-
-Technologies Used
-
-    HTML
-    CSS
-    JavaScript
-    Bootstrap
-    Fetch API
-
-How to Contribute
-
-    Fork the repository.
-    Create a new branch for your feature or bug fix.
-    Make changes and submit a pull request.
-    Your contributions are highly appreciated!
 
 Credits
-
-    REST Countries API: https://restcountries.com/v3.1/all
-    OpenWeatherMap API: https://api.openweathermap.org/data/2.5/weather
+ - REST Countries API: https://restcountries.com/v3.1/all
+ - OpenWeatherMap API: https://api.openweathermap.org/data/2.5/weather
 
 License
 
