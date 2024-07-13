@@ -42,7 +42,14 @@
     margin-top: 2vh;
     margin-bottom: 2vh;
     border: 1px solid #fff !important;
-    color: #fff !important;
+    color: #fff !important;    
+    transition: scale 0.5s;
+}
+.weather-btw:hover{
+    scale: 1.05;
+}
+.weather-btw:active{
+    scale: 0.95;
 }
 .weather-data{
     height: 50px;
