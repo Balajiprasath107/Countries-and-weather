@@ -16,7 +16,6 @@ const rowdiv = document.createElement("div")
 rowdiv.classList = 'row'
 containerdiv.append(rowdiv)
 
-let ouv
 //fetching countries data
 fetch('https://restcountries.com/v3.1/all')
 .then((response)=>response.json())
