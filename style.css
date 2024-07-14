@@ -42,7 +42,8 @@
     margin-top: 2vh;
     margin-bottom: 2vh;
     border: 1px solid #fff !important;
-    color: #fff !important;    
+    color: #fff !important;   
+    cursor: pointer;
     transition: scale 0.5s;
 }
 .weather-btw:hover{
