@@ -64,10 +64,10 @@ fetch('https://restcountries.com/v3.1/all')
 
         //button 
         const weatherbtw = document.createElement("button")
-        let toggleclick  = false
+        let togglebtw  = false
         weatherbtw.classList = 'btn btn-transparent weather-btw'
         weatherbtw.setAttribute("id","weather-btn")
-        weatherbtw.innerText = toggleclick?'Weather':'Click for Weather'
+        weatherbtw.innerText = togglebtw?'Weather':'Click for Weather'
         cardbody.append(weatherbtw)
 
         //weather 
