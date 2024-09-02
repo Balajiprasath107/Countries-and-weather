@@ -77,11 +77,14 @@ fetch('https://restcountries.com/v3.1/all')
 
         const apilink = `https://api.openweathermap.org/data/2.5/weather?lat=${country.latlng[0]}&lon=${country.latlng[1]}&appid=1e481b9fcaa72eab694f8b532d9d19f1`
         weatherbtw.addEventListener("click", function(){
-            toggleclick = (!toggleclick)
+            togglebtw = (!togglebtw)
             const objr = (clk(apilink))
+            weatherbtw.innerText = togglebtw?'Hide Weather':'Click for Weather'
+            weather.innerHTML = (togglebtw)? 
             objr.then(value => {
                 weather.innerHTML = `<p>${value[0]}</p>lat : ${value[1]} lon: ${value[2]}`
               }) 
+            : null
         })
     }
     
