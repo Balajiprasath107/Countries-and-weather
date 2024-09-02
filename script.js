@@ -64,9 +64,10 @@ fetch('https://restcountries.com/v3.1/all')
 
         //button 
         const weatherbtw = document.createElement("button")
+        let toggleclick  = false
         weatherbtw.classList = 'btn btn-transparent weather-btw'
         weatherbtw.setAttribute("id","weather-btn")
-        weatherbtw.innerText = 'Click for Weather'
+        weatherbtw.innerText = toggleclick?'Weather':'Click for Weather'
         cardbody.append(weatherbtw)
 
         //weather 
@@ -76,6 +77,7 @@ fetch('https://restcountries.com/v3.1/all')
 
         const apilink = `https://api.openweathermap.org/data/2.5/weather?lat=${country.latlng[0]}&lon=${country.latlng[1]}&appid=1e481b9fcaa72eab694f8b532d9d19f1`
         weatherbtw.addEventListener("click", function(){
+            toggleclick = (!toggleclick)
             const objr = (clk(apilink))
             objr.then(value => {
                 weather.innerHTML = `<p>${value[0]}</p>lat : ${value[1]} lon: ${value[2]}`
